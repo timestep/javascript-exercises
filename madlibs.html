@@ -17,9 +17,21 @@
 	 <button id="lib-button">Lib it!</button>
 	  
 	 <div id="story"></div>
+	
 	 <script type="text/javascript">
-	 
+	 	var noun = document.getElementById('noun');
+	 	var adjective = document.getElementById('adjective');
+	 	var name = document.getElementById('name');
 
+	 	function gets(){
+	 		noun = noun.value;
+	 		adjective = adjective.value;
+	 		name = name.value;
+	 		console.log(noun +' '+ adjective+ ' '+name);
+	 	}
+
+	 	var button = document.getElementById('lib-button');
+	 	button.addEventListener('click', gets);
 	 </script>
 	  
 	 </body>
