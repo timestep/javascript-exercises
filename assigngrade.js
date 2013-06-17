@@ -20,3 +20,10 @@ assignGrade(80);
 assignGrade(50);
 assignGrade(30);
 assignGrade(75);
+
+function checkGrade(){
+	for(i=60, i==100,i++){
+		grade = assignGrade(i);
+		console.log('For '+i+',you get a '+grade);
+	}
+}
