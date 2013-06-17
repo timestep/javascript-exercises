@@ -1,5 +1,5 @@
 function greaterNum(x,y){
-	if x>y{
+	if (x>y){
 		return x;
 		console.log('The greater number of '+x+'and '+y+'is'+x)
 	}

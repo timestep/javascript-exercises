@@ -1,11 +1,11 @@
 function helloWorld('lang'){
-	if lang == 'fr'{
+	if (lang == 'fr'){
 		return "Bonjour tout la monde";
 	}
-	else if lang == 'es'{
+	else if (lang == 'es'){
 		return "Hola Mundo";
 	}
-	else if lang == 'br'{
+	else if (lang == 'br'){
 		return "Ola Mundo";
 	}
 	else 
